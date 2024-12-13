@@ -1,4 +1,4 @@
-/*package com.generation.blogpessoal.security;
+package com.generation.blogpessoal.security;
 
 import java.util.Optional;
 
@@ -30,4 +30,4 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 			throw new ResponseStatusException(HttpStatus.FORBIDDEN);
 
 	}
-}*/
+}

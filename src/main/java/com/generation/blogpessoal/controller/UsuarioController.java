@@ -1,4 +1,4 @@
-/*package com.generation.blogpessoal.controller;
+package com.generation.blogpessoal.controller;
 
 import java.util.List;
 import java.util.Optional;
@@ -72,4 +72,4 @@ public class UsuarioController {
 
 	}
 
-}*/
+}

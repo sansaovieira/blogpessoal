@@ -1,4 +1,4 @@
-/*package com.generation.blogpessoal.security;
+package com.generation.blogpessoal.security;
 
 import java.security.Key;
 import java.util.Date;
@@ -62,4 +62,4 @@ public class JwtService {
 		return createToken(claims, userName);
 	}
 
-}*/
+}

@@ -1,6 +1,4 @@
-/*
- * 
- * package com.generation.blogpessoal.configuration;
+package com.generation.blogpessoal.configuration;
 
 import org.springdoc.core.customizers.OpenApiCustomizer;
 import org.springframework.context.annotation.Bean;
@@ -18,25 +16,17 @@ import io.swagger.v3.oas.models.responses.ApiResponses;
 public class SwaggerConfig {
 
 	@Bean
-    OpenAPI springBlogPessoalOpenAPI() {
-        return new OpenAPI()
-            .info(new Info()
-                .title("Personal Blog - Posts API")
-                .description("This project is part of **Generation Brasil's** **Bootcamp**, which was a challenge presented after the backend block, and is focused on developing a fully functional personal blog application. The backend provides a robust API for managing blog posts and serving as a learning platform to implement best practices in software development, architecture, and teamwork.\r\n"
-                		+ "")
-                .version("v0.0.1")
-                .license(new License()
-                    .name("Generation Brasil")
-                    .url("https://brazil.generation.org/"))
-                .contact(new Contact()
-                    .name("Sansão Dembué Vieira")
-                    .url("https://github.com/sansaovieira")
-                    .email("vieirasansao42@gmail.com")))
-            .externalDocs(new ExternalDocumentation()
-                .description("Github")
-                .url("https://github.com/sansaovieira/blogpessoal/tree/main"));
-    }
-
+	OpenAPI springBlogPessoalOpenAPI() {
+		return new OpenAPI().info(new Info().title("Personal Blog - Posts API").description(
+				"This project is part of **Generation Brasil's** **Bootcamp**, which was a challenge presented after the backend block, and is focused on developing a fully functional personal blog application. The backend provides a robust API for managing blog posts and serving as a learning platform to implement best practices in software development, architecture, and teamwork.\r\n"
+						+ "")
+				.version("v0.0.1")
+				.license(new License().name("Generation Brasil").url("https://brazil.generation.org/"))
+				.contact(new Contact().name("Sansão Dembué Vieira").url("https://github.com/sansaovieira")
+						.email("vieirasansao42@gmail.com")))
+				.externalDocs(new ExternalDocumentation().description("Github")
+						.url("https://github.com/sansaovieira/blogpessoal/tree/main"));
+	}
 
 	@Bean
 	OpenApiCustomizer customerGlobalHeaderOpenApiCustomiser() {
@@ -64,5 +54,4 @@ public class SwaggerConfig {
 		return new ApiResponse().description(message);
 
 	}
-}*/
- 
+}

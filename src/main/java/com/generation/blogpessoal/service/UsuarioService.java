@@ -1,4 +1,4 @@
-/*package com.generation.blogpessoal.service;
+package com.generation.blogpessoal.service;
 
 import java.util.Optional;
 
@@ -99,4 +99,4 @@ public class UsuarioService {
 		return "Bearer " + jwtService.generateToken(usuario);
 	}
 
-}*/
+}

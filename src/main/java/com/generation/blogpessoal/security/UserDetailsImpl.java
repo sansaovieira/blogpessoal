@@ -1,4 +1,4 @@
-/*package com.generation.blogpessoal.security;
+package com.generation.blogpessoal.security;
 
 import java.util.Collection;
 import java.util.List;
@@ -63,4 +63,3 @@ public class UserDetailsImpl implements UserDetails {
 	}
 
 }
- */

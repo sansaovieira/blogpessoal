@@ -1,4 +1,4 @@
-/*package com.generation.blogpessoal.security;
+package com.generation.blogpessoal.security;
 
 import java.io.IOException;
 
@@ -62,4 +62,4 @@ public class JwtAuthFilter extends OncePerRequestFilter {
 			return;
 		}
 	}
-}*/
+}
